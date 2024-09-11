@@ -40,7 +40,7 @@ Our approach involves generating new molecular structures by modifying existing 
 To run the code, you'll need the following Python packages:
 
 ```bash
-pip install rdkit catboost scikit-learn imbalanced-learn datamol
+pip install rdkit scikit-learn imbalanced-learn datamol
 ```
 
 ## Usage
