@@ -6,17 +6,20 @@ Welcome to the repository for our solution to the ADMET 2024 Prediction Hackatho
 - https://www.kaggle.com/competitions/admet-prediction
 - https://aistudy.innopolis.university/admet
 
-## Overview
+## Competition overview
 
 In this competition, we focused on predicting specific ADMET properties using machine learning models. We worked with three classification datasets, each utilizing SMILES (Simplified Molecular Input Line Entry System) strings to represent molecular structures. The challenge was to build accurate models that can generalize well and perform effectively on an independent test set.
 
 Our approach involves generating new molecular structures by modifying existing ones, featurizing them using molecular fingerprints, and training a RandomForestClassifier model for each property.
 
-## Dataset Overview
-
-- **train_set_example.csv**: The training dataset containing labeled data used to train our models. Includes chemical structures, binary outcomes, and other relevant properties. NOT FULL VERSION, just example, ask the organizers to give you full version or use open-source data from internet.
-- **test_set_example.csv**: The test dataset used to generate predictions for model evaluation. NOT FULL VERSION, just example, ask the organizers to give you full version or use open-source data from internet.
-- **sample_submission_example.csv**: A sample submission file format to Kaagle.
+## Repository overview
+The project repository contains the following files and folders:
+- notebooks/: This folder contains notebooks with various experiments and models, including GNN, RandomForest, CatBoost, GradBoost and etc. Also we tried to extend data and tried to use ensemble of trees. We compared all of them using ROC AUC score.
+- README.md: A file describing the project.
+- best_algorithm.ipynb: The main notebook with the best of the algorithm in the meaning of ROC AUC score. The description of this algorithm below.
+- train_set_example.csv: The training dataset containing labeled data used to train our models. Includes chemical structures, binary outcomes, and other relevant properties. NOT FULL VERSION, just example, ask the organizers to give you full version or use open-source data from internet.
+- test_set_example.csv: The test dataset used to generate predictions for model evaluation. NOT FULL VERSION, just example, ask the organizers to give you full version or use open-source data from internet.
+- sample_submission_example.csv: A sample submission file format to Kaggle.
 
 ### Columns
 
