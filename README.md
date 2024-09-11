@@ -21,8 +21,8 @@ The project repository contains the following files and folders:
 - test_set_example.csv: The test dataset used to generate predictions for model evaluation. NOT FULL VERSION, just example, ask the organizers to give you full version or use open-source data from internet.
 - sample_submission_example.csv: A sample submission file format to Kaggle.
 
-### Columns
-
+## Dataset overview 
+Columns description:
 - **Drug_ID**: Unique identifier for each drug or compound.
 - **Drug**: The chemical structure represented in SMILES notation.
 - **Y**: The target variable for classification (binary outcome).
